@@ -15,11 +15,10 @@ export default {
 </script>
 
 <style scoped>
-/* Add your styles here */
 .forgot-password {
   font-size: 12px;
-  display: flex; /* Enable flexbox */
-  flex-direction: column; /* Stack elements vertically */
+  display: flex;
+  flex-direction: column;
   align-items: flex-end;
   margin-bottom: 10px;
   margin-top: -27px;

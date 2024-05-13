@@ -6,7 +6,6 @@
 export default {
   methods: {
     showTermsModal() {
-      // Logic to show the terms modal or navigate to a separate terms page
       console.log('Showing terms modal or navigating to terms page')
     }
   }
@@ -15,12 +14,13 @@ export default {
 
 <style scoped>
 .terms {
-  color: #007bff; /* Blue color for the clickable text */
-  cursor: pointer; /* Change cursor to pointer on hover */
+  color: #007bff;
+  cursor: pointer;
   margin-top: 20px;
+  margin-right: 120px;
   font-size: 12px;
   display: flex;
-  justify-content: flex-start; /* Already present */
+  justify-content: flex-start;
   align-items: start;
 }
 </style>

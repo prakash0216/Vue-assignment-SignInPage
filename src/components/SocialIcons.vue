@@ -11,30 +11,27 @@
 </template>
 
 <script>
-export default {
-  // Component logic here
-}
+export default {}
 </script>
 
 <style scoped>
-/* Component-specific styles here */
 .social-icons {
-  display: flex; /* Already present */
-  flex-direction: column; /* Already present */
-  justify-content: center; /* Already present */
-  align-items: center; /* Already present */
-  text-align: center; /* Already present */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: rgb(32, 31, 31);
-  height: 100px; /* Already present */
-  width: 400px; /* Already present */
-  /* Added property */
+  height: 100px;
+  width: 400px;
+
   flex-grow: 1;
   margin: 0;
 }
 
 .options,
 .copyright {
-  font-size: 10px; /* Set smaller font size */
+  font-size: 10px;
   color: white;
 }
 
@@ -44,7 +41,7 @@ export default {
 
 .social-icons i {
   margin-right: 10px;
-  color: white; /* Set icon color to white */
-  font-size: 24px; /* Set larger icon size */
+  color: white;
+  font-size: 24px;
 }
 </style>
